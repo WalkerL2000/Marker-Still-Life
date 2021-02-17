@@ -277,9 +277,18 @@ body{
     z-index: 1;
 }
 
-.cap-container:hover {
+
+#capholder:hover {
+    visibility: hidden;
+}
+
+/* Still Not Working
+
+#capholder {
     transition: 0.8s;
+}
+#capholder:hover {
     top: 0px;
 }
 
-
+*/
