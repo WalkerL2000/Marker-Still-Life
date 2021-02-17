@@ -277,7 +277,9 @@ body{
     z-index: 1;
 }
 
-.cap:hover ~ .cap{
-    top: 0;
+.cap-container:hover {
     transition: 0.8s;
+    top: 0px;
 }
+
+
